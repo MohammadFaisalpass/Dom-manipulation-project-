@@ -24,12 +24,8 @@ const inactiveCountEl = document.getElementById("inactiveCount");
    Every time it changes, we re-render the list from scratch.
    This keeps the DOM and the data in sync and is a common
    pattern once you move past tiny scripts. */
-let students = [
-  { id: 1, name: "Amina Rahman", status: "active" },
-  { id: 2, name: "Tanvir Ahmed", status: "inactive" },
-  { id: 3, name: "Priya Das", status: "active" },
-];
-let nextId = 4;
+let students = [];
+let nextId = 1;
 
 let currentFilter = "all";   // "all" | "active" | "inactive"
 let currentSearch = "";
