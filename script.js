@@ -1,4 +1,3 @@
-
 const studentForm   = document.getElementById("studentForm");
 const studentNameInput   = document.getElementById("studentName");
 const studentStatusSelect = document.getElementById("studentStatus");
