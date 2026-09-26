@@ -1,4 +1,4 @@
-/* ---------- Design tokens ---------- */
+
 :root {
   --bg: #f6f5f2;
   --surface: #ffffff;
@@ -42,7 +42,7 @@ body {
   padding: 32px 20px 64px;
 }
 
-/* ---------- Header ---------- */
+
 .header {
   display: flex;
   align-items: flex-start;
@@ -76,7 +76,7 @@ body {
 
 .toggle-btn:hover { border-color: var(--accent); }
 
-/* ---------- Stats ---------- */
+
 .stats {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -108,7 +108,7 @@ body {
 .stat-active .stat-number { color: var(--accent); }
 .stat-inactive .stat-number { color: var(--danger); }
 
-/* ---------- Panels ---------- */
+
 .panel {
   background: var(--surface);
   border: 1px solid var(--border);
@@ -123,7 +123,7 @@ body {
   font-size: 1.05rem;
 }
 
-/* ---------- Form ---------- */
+
 .student-form {
   display: flex;
   gap: 10px;
@@ -169,7 +169,7 @@ button:focus-visible {
 
 .student-form button:hover { opacity: 0.9; }
 
-/* ---------- Controls (search + filters) ---------- */
+
 .controls {
   display: flex;
   gap: 12px;
@@ -202,7 +202,7 @@ button:focus-visible {
   color: #fff;
 }
 
-/* ---------- Student list ---------- */
+
 .student-list {
   display: flex;
   flex-direction: column;
@@ -269,7 +269,7 @@ button:focus-visible {
   color: var(--danger);
 }
 
-/* ---------- Utility ---------- */
+
 .hidden { display: none !important; }
 
 .empty-state {
